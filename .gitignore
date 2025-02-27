@@ -5,6 +5,7 @@ venv/
 .env/
 *.env
 *.venv
+generative/
 
 # Cache do Python
 __pycache__/
