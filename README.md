@@ -11,8 +11,15 @@ Basta apenas acessar o link (https://generative-ia-tre.streamlit.app/), fazer o 
 </p>
 
 
+### Interaja com o chatbot via Streamlit.
 
-# 📚 AI Legal Chatbot - RAG-powered PDF Reader
+# Captura de Tela 1 📸
+Veja como é simples, basta carregar os arquivos no lado esquerdo, processar os mesmos e depois fazer uma pergunta! 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0113b609-1b4a-4ccb-b70a-72fae49544db" alt="Usando a ferramenta" width="700">
+</p>
+
+ # 📚 AI Legal Chatbot - RAG-powered PDF Reader
 
 Um chatbot baseado em *Deep Learning* e *Generative AI* com *Retrieval-Augmented Generation (RAG)*, capaz de processar PDFs de sentenças judiciais e simplificar consultas jurídicas.
 
@@ -34,6 +41,8 @@ Um chatbot baseado em *Deep Learning* e *Generative AI* com *Retrieval-Augmented
 
 ## 📦 Instalação
 
+Para exercutar o projeto localmente, listamos algumas etapas essenciais para você:
+
 Siga os passos abaixo para configurar o ambiente:
 
 ```bash
@@ -54,15 +63,6 @@ pip install -r requirements.txt
 # Inicie o chatbot e abra no navegador
 streamlit run app.py #Linux/macOS
 ```
-
-## Interaja com o chatbot via UI web.
-
-# Captura de Tela 1 📸
-![Adicionando os PDFs](image/img2.PNG)
-
-
-# Captura de Tela 2 📸
-![Interajindo com o chatbot](image/img1.PNG)
 
 
 ## Configurando Credenciais Google Cloud para Gemini (Google Generative AI)
@@ -116,6 +116,9 @@ O arquivo **credentials.json** será baixado automaticamente para seu computador
 
 ## 5. Configurar no Código Python
 No seu projeto, adicione o arquivo **credentials.json** na raiz.
+Crie um arquivo .env e nele coloque as variáveis:
+- GEMINI_API_KEY = "chave criada no Google Cloud"
+- GOOGLE_APPLICATION_CREDENTIALS = "caminho do arquivo credentials.json"
 
 ---
 
