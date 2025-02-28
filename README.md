@@ -1,3 +1,17 @@
+# Contexto do projeto
+O projeto tem como objetivo usar uma Large Language Model (LLM) e Retrieval-Augmented Generation (RAG) para análise de sentenças judiciais do TRE/RN, otimizando consultas e interpretação de decisões. 
+As sentenças estão em PDF, e podem ser muitas para analisar. Essa ferramenta então pode facilitar a vida dos servidores com insights rápidos. 
+Também foram feito testes de arquivos com outros conteúdos e a ferramenta performou bem! 
+
+### Como funciona?
+Basta apenas acessar o link (https://generative-ia-tre.streamlit.app/), fazer o upload dos arquivos (pode ser mais de um!) e então fazer as perguntas que o chatbot irá retornar as respostas bom base nos documentos analisados. 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/deb4ef05-c996-4edc-b373-cb5c5cc8c8ae" alt="Diagrama do Processo RAG" width="400">
+</p>
+
+
+
 # 📚 AI Legal Chatbot - RAG-powered PDF Reader
 
 Um chatbot baseado em *Deep Learning* e *Generative AI* com *Retrieval-Augmented Generation (RAG)*, capaz de processar PDFs de sentenças judiciais e simplificar consultas jurídicas.
